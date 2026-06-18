@@ -38,4 +38,7 @@ Commands and payloads to use during the exam can be found in the folder `command
 ## Notes and reporting
 To spare time on the exam, use both the note and report template which can be found in the folders `note taking` and `reporting`. For note-taking, I used Obsidian where I created a note for each target machine using the `machine_template.md` template. For reporting, I created a Word template based on the exam template provided by Offensive Security but with improved visuals, layout, and headers.
 
+## Exploit scripts
+The `scripts` folder contains `oswe_exploit_skeleton.py`, a generic Python scaffold for OSWE (WEB-300) style exploit development: session/auth handling, CSRF token extraction, payload building, and a reverse-shell trigger, with `-v` for raw request/response debugging and `--proxy` to route through Burp. Fill in the `TODO` blocks per target.
+
 
